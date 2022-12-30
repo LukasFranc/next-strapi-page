@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-export default function Header () {
+
+export default function Header() {
     return (
         <header className="header">
             <div className="container">
