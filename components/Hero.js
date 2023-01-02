@@ -8,7 +8,7 @@ function Hero({homepage}) {
         homepage ?
             <section className="section section--hero">
                 <div className="section__content">
-                    <Image src="/light.svg" width={100} height={400} alt="" className="section__decorationImage"/>
+                    <Image src="/decorative-image.svg" width={100} height={40} alt="" className="section__decorationImage"/>
                     <div className="section__info">
                         {homepage.mainHero.heroSubTitle ?
                             <div className="section__subtitle">
