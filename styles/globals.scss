@@ -91,9 +91,10 @@ section {
 }
 
 .section--hero {
-  height: calc(100vh - 100px);
+  height: 100vh;
+  margin-top: -100px;
   @media (max-width: 1240px) {
-    height: calc(100vh - 80px);
+    margin-top: -80px;
   }
 
   .section__content {
