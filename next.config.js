@@ -11,7 +11,7 @@ const nextConfig = {
         remotePatterns: [
             {
                 protocol: 'https',
-                hostname: 'lf-next-project.up.railway.app',
+                hostname: 'res.cloudinary.com',
             },
         ],
     },
