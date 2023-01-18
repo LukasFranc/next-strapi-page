@@ -3,7 +3,7 @@ import Image from "next/image";
 import Typewriter from 'typewriter-effect'
 
 function Hero({homepage}) {
-
+console.log(homepage.mainHero.heroMainImage.data.attributes.url)
     return (
         homepage ?
             <section className="section section--hero">
