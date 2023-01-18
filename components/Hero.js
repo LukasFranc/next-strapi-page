@@ -65,7 +65,7 @@ function Hero({homepage}) {
                     {homepage.mainHero.heroMainImage ?
                         <div className="section__image">
                             <Image className="hero__image"
-                                   src={`https://lf-next-project.up.railway.app${homepage.mainHero.heroMainImage.data.attributes.url}`}
+                                   src={homepage.mainHero.heroMainImage.data.attributes.url}
                                    alt="" width={1080}
                                    height={720}/>
                         </div>
